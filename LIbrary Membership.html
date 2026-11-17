@@ -1,0 +1,90 @@
+<html>
+    <html lang ="en">
+        <head>
+            <title>Library Membership</title>
+        </head>
+        <body>
+            <h1>College Library Membership</h1>
+            <p>Welcome to the college Library.Explore books and build your knowledge</p>
+            <hr><!--Horizontal Line-->
+            <p>Read the instructions before appyling</p>
+            <a href="https://www.google.com">Go to Membership Form</a>
+            <hr><!--Horizontal Line-->
+            <h2>1.Lists</h2>
+            <li>Student ID card</li>
+            <li>Passport-size photograph</li>
+            <h3>Application Steps</h3>
+            <ol>
+                <li>Choose a membership type</li>
+                <li>Complete the Form</li>
+                <li>Visit the library</li>
+            </ol>
+            <h4>ISBN</h4>
+            <dl>
+               International Standard Book Number
+            </dl>
+            <h2>2. Library Hours</h2>
+
+            <table>
+             <tr>
+             <th>Day</th>
+             <th>Opening</th>
+             <th>Closing</th>
+             </tr>
+             <tr>
+             <td>Monday to Friday</td>
+             <td>9:00 AM</td>
+             <td>6:00 PM</td>
+             </tr>
+             <tr>
+             <td>Saturday</td>
+             <td>9:00 AM</td>
+             <td>1:00 PM</td>
+             </tr>
+             </table>
+             <h2>3.Inline Frame</h2>
+             <iframe
+                srcdoc="<p><h3>Library Notice</h3><p>Return borrowed books within 14 days.</p>"
+                height="100"
+                width="300"
+                title="Library Notice">
+             </iframe>
+             <h2>4.Membership</h2>
+             <form action="">
+                <label for="First Name">First name:</label>
+                <input type="text" name="first name" id=""placeholder="Enter first Name"required />
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id=""placeholder="EMAIL">
+                <br>
+                <label for="member ship">Member ship</label>
+                <select name="year"id="">
+                <option value="1">Golden Pass</option>
+                <option value="2">Silver pass</option>
+                <option value="3">Bronze Pass</option>
+                <option value="4">Family pass</option>
+                </select>
+                <br>
+                <label for="reading mode">Reading Mode:</label>
+                <input type="radio"name="print"id=""value="Print">Print
+                <input type="radio"name="digital"id=""value="Digital">Digital
+                <br>
+                <label for="reading mode">Intrests:</label>
+                <input type="checkbox"name="print"id=""value="Science">Science
+                <input type="checkbox"name="digital"id=""value="Literature">Literature
+            </br>
+            <label for="suggestions">Book Suggestions:</label>
+            <textarea id="suggestions" name="suggestions" rows="2" cols="35"></textarea>
+            <br><br>
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to the library rules.</label>
+            <br>
+           <button type="submit">Apply</button>
+           <button type="reset">Reset</button>
+           </form>
+
+     
+
+             
+            </body>
+            </html>
