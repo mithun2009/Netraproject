@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodExpress - Order Food Online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 1. Responsive Header & Navbar (Flexbox) -->
+  <header class="navbar">
+    <div class="logo">FoodExpress</div>
+    <nav class="nav-links">
+      <a href="#categories">Categories</a>
+      <a href="#restaurants">Restaurants</a>
+      <a href="#cart">Cart (0)</a>
+    </nav>
+  </header>
+
+  <!-- Food Categories -->
+  <section id="categories" class="categories">
+    <h2>Food Categories</h2>
+    <div class="category-list">
+      <span>Biryani</span>
+      <span>Burgers</span>
+      <span>Pizza</span>
+      <span>Chinese</span>
+      <span>Desserts</span>
+    </div>
+  </section>
+
+  <!-- 2. Restaurant Listing Section (CSS Grid) -->
+  <section id="restaurants" class="restaurants">
+    <h2>Popular Restaurants</h2>
+
+    <div class="restaurant-grid">
+      <!-- Card 1 -->
+      <div class="card-container">
+        <div class="card">
+          <img src="https://unsplash.com" alt="Biryani">
+          <div class="card-info">
+            <h3>Spice Garden</h3>
+            <p>Biryani, North Indian</p>
+            <span class="rating">★ 4.5 • 30 mins</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card-container">
+        <div class="card">
+          <img src="https://unsplash.com" alt="Burger">
+          <div class="card-info">
+            <h3>Burger Hub</h3>
+            <p>Burgers, Fries, Shakes</p>
+            <span class="rating">★ 4.3 • 25 mins</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card-container">
+        <div class="card">
+          <img src="https://unsplash.com" alt="Pizza">
+          <div class="card-info">
+            <h3>Pizza Corner</h3>
+            <p>Italian, Woodfire Pizza</p>
+            <span class="rating">★ 4.7 • 35 mins</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card-container">
+        <div class="card">
+          <img src="https://unsplash.com" alt="Salad">
+          <div class="card-info">
+            <h3>Healthy Bowl</h3>
+            <p>Salads, Juices, Wraps</p>
+            <span class="rating">★ 4.6 • 20 mins</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card-container">
+        <div class="card">
+          <img src="https://unsplash.com" alt="Tandoori">
+          <div class="card-info">
+            <h3>Tandoor Express</h3>
+            <p>Kebabs, Rolls, Curry</p>
+            <span class="rating">★ 4.2 • 40 mins</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card-container">
+        <div class="card">
+          <img src="https://unsplash.com" alt="Dessert">
+          <div class="card-info">
+            <h3>Sweet Treats</h3>
+            <p>Cakes, Waffles, Ice Cream</p>
+            <span class="rating">★ 4.8 • 25 mins</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

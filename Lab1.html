@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Browser Metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="University Student Activity Management Portal for campus events and registration.">
+  <title>Student Activity Portal</title>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <h1>University Student Activity Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="#events">Upcoming Events</a></li>
+        <li><a href="#activities">University Activities</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Upcoming Events Section -->
+    <section id="events">
+      <h2>Upcoming Events</h2>
+
+      <article>
+        <h3>Tech Hackathon 2026</h3>
+        <p>Date: December 5, 2026 | Location: Main Auditorium</p>
+        <p>Join fellow students to build creative tech projects in teams.</p>
+      </article>
+
+      <article>
+        <h3>Annual Cultural Fest</h3>
+        <p>Date: December 12, 2026 | Location: Open Grounds</p>
+        <p>A celebration of music, dance, drama, and campus food stalls.</p>
+      </article>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities">
+      <h2>Explore University Activities</h2>
+      <ul>
+        <li>Coding and Robotics Club</li>
+        <li>Music and Drama Society</li>
+        <li>Campus Sports Team</li>
+      </ul>
+    </section>
+
+    <!-- Student Registration Form -->
+    <section id="register">
+      <h2>Student Event Registration</h2>
+
+      <form action="#" method="post">
+        
+        <!-- Text Inputs -->
+        <p>
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+          <label for="email">Student Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <!-- Dropdown -->
+        <p>
+          <label for="event">Select Event:</label><br>
+          <select id="event" name="event" required>
+            <option value="">-- Choose an event --</option>
+            <option value="hackathon">Tech Hackathon 2026</option>
+            <option value="cultural">Annual Cultural Fest</option>
+          </select>
+        </p>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+          <legend>Year of Study:</legend>
+          <input type="radio" id="year1" name="year" value="1" required>
+          <label for="year1">1st Year</label><br>
+
+          <input type="radio" id="year2" name="year" value="2">
+          <label for="year2">2nd Year</label><br>
+
+          <input type="radio" id="year3" name="year" value="3">
+          <label for="year3">3rd Year</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Checkboxes -->
+        <fieldset>
+          <legend>Areas of Interest:</legend>
+          <input type="checkbox" id="tech" name="interest" value="tech">
+          <label for="tech">Technology</label><br>
+
+          <input type="checkbox" id="arts" name="interest" value="arts">
+          <label for="arts">Arts &amp; Culture</label><br>
+
+          <input type="checkbox" id="sports" name="interest" value="sports">
+          <label for="sports">Sports</label>
+        </fieldset>
+
+        <!-- Textarea -->
+        <p>
+          <label for="notes">Additional Comments:</label><br>
+          <textarea id="notes" name="notes" rows="4" cols="35"></textarea>
+        </p>
+
+        <button type="submit">Register Now</button>
+      </form>
+    </section>
+
+    <!-- Sidebar Notice -->
+    <aside>
+      <h2>Notice Board</h2>
+      <p>Registration closes 2 days before each event. Bring your student ID card for entry.</p>
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>2026 University Student Affairs</p>
+  </footer>
+
+</body>
+</html>

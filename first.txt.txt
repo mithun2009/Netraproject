@@ -1,0 +1,1 @@
+The ESP32 is a low-cost, low-power 32-bit microcontroller developed by Espressif Systems that features built-in Wi-Fi and Bluetooth connectivity. As the successor to the popular ESP8266, it is widely used in Internet of Things (IoT) projects, smart home devices, robotics, and wearables
